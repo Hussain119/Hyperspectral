@@ -1,4 +1,4 @@
-function  x5reflectance(~,~)
+function  PixelReflectance(~,~)
 %This file is a part of the Advanced Image Processing Research Lab (KFUEIT) Toolbox for MATLAB
 %Summary:
 %The code will diplay the reflectance spectra of indvidual pixel on which user will click using mouse button.
@@ -10,7 +10,7 @@ function  x5reflectance(~,~)
 %  reflectance=zeros(sx,sy,sz);
 %  reflectance=Data(y).reflectance;
 % figure(1);
-%   set(gcf,'WindowButtonDownFcn',@x5reflectance),imshow(Data(y).FalseIm,[])
+%   set(gcf,'WindowButtonDownFcn',@PixelReflectance),imshow(Data(y).FalseIm,[])
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Press n to display new pixel spectra
 % Press g to hold this spectra and place a next one over it (for comparison)
