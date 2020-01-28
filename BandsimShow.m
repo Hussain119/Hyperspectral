@@ -1,4 +1,4 @@
-function [] = showBandimShow(im2)
+function [] = BandimShow(im2)
 %SHOWBAND Summary of this function goes here
 This file is a part of the Advanced Image Processing Research Lab (KFUEIT) Toolbox for MATLAB
  
